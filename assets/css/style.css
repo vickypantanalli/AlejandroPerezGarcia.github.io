@@ -38,3 +38,46 @@ nav{
     border-radius: 50%;
     width: 100%;
 }
+
+.card{
+    background-color: black;
+}
+
+
+.sec-soy p{
+ 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 20px;
+    font-size: 20px;
+  
+}
+
+/* Small devices (landscape phones, 576px and up) sm */
+@media (width <= 575px) { 
+ 
+    section h2{
+        text-align: center;
+    }
+}
+
+@media (min-width : 576px){
+     section h2{
+        text-align: center;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up)  md*/
+@media (min-width: 768px) { 
+      section h2{
+        text-align: center;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) lg */
+@media (min-width: 992px) {
+      section h2{
+        text-align: center;
+    }
+}
