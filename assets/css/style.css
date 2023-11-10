@@ -1,19 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap");
 
-*{
+* {
+  font-family: Tourney;
+  color: rgb(55, 229, 32);
+}
+
+body{
     background-color: black;
-    font-family: Tourney ;
-    color: rgb(55, 229, 32);
 }
 
-.nav-color{
-    color: rgb(55, 229, 32);
+.nav-color {
+  color: rgb(55, 229, 32);
 }
 
-.navbar-toggler{
-    background-color: rgb(55, 229, 32);
+.navbar-toggler {
+  background-color: rgb(55, 229, 32);
 }
 
- .navbar-toggler-icon{
-    background-color: aliceblue;
- }
+.navbar-toggler-icon {
+  background-color: aliceblue;
+}
+
+nav{
+    
+    margin-bottom: 60px;
+}
+
+.card-ale {
+  margin: 0 30%;
+  background-color: black;    
+  padding: 2%;
+  border: 1px solid rgb(55, 229, 32);
+
+}
+
+.card-ale img {
+    border-radius: 50%;
+    width: 100%;
+}
