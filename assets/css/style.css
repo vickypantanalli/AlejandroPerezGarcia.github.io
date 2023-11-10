@@ -53,6 +53,10 @@ nav{
   
 }
 
+.small{
+  font-size: 20px;
+}
+
 /* Small devices (landscape phones, 576px and up) sm */
 @media (width <= 575px) { 
  
