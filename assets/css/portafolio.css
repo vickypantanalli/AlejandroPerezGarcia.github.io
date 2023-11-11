@@ -6,6 +6,11 @@
     color: rgb(55, 229, 32);
 }
 
+
+body{
+    background-color: black;
+}
+
 .nav-color{
     color: rgb(55, 229, 32);
 }
@@ -17,3 +22,16 @@
  .navbar-toggler-icon{
     background-color: aliceblue;
  }
+
+ .small{
+  font-size: 20px;
+}
+
+.card-footer{
+    background-color: black;
+    
+}
+
+.card-footer a{
+    color: rgb(55, 229, 32);
+}

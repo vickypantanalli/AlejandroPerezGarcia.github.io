@@ -13,9 +13,11 @@
     <title>Portafolio</title>
   </head>
   <body>
-        <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand nav-color" href="./index.html">{ Alejandro *_*...}</a>
+        <a class="navbar-brand nav-color" href="./index.html"
+          >{ Alejandro *_*...}</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -28,15 +30,26 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto ">
-            <a class="nav-link active nav-color" aria-current="page" href="./index.html">Home</a>
-            <a class="nav-link nav-color"  href="./portafolio.html">Portafolio</a>
+          <div class="navbar-nav ms-auto">
+            <a
+              class="nav-link active nav-color"
+              aria-current="page"
+              href="./index.html"
+              >Home</a
+            >
+            <a class="nav-link nav-color" href="./portafolio.html"
+              >Portafolio</a
+            >
             <a
               class="nav-link nav-color"
-              target="_blank"  href="https://www.linkedin.com/in/alejandrosperezgarcia/"
+              target="_blank"
+              href="https://www.linkedin.com/in/alejandrosperezgarcia/"
               >Linkedin</a
             >
-            <a class="nav-link nav-color" target="_blank"  href="https://github.com/AlejandroPerezGarcia"
+            <a
+              class="nav-link nav-color"
+              target="_blank"
+              href="https://github.com/AlejandroPerezGarcia"
               >Github</a
             >
           </div>
@@ -44,13 +57,65 @@
       </div>
     </nav>
 
-    <header>
-        
+    <header class="container">
+      <h1 class="text-center mt-5 mb-5">Proyectos realizados</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/img/curriculun_1.jpg" class="card-img-top" alt="curriculum" />
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 1 : Curriculum - Full Stack</h5>
+              <p class="card-text">
+                Primer proyecto de la carrera Full Stack
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="./index.html"  class="btn"> ir al Proyecto</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/img/proyecto_amiibo.jpg" class="card-img-top" alt="Ammibo" />
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 2 : Amiibo APP - Android </h5>
+              <p class="card-text">
+                Proyecto final del bootcamp de Desarrollador Android : tomando una Api de Figuras coleccionable
+                Ammibo y mostras datos y buscador de Amiibo.
+              </p>
+            </div>
+            <div class="card-footer">
+               <a href="https://github.com/AlejandroPerezGarcia/ProyectoFinalCurso" target="_blank" class="btn"> ir al Proyecto</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/img/pelicoolap.jpg" class="card-img-top" alt="peliculapp" />
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 3 : Pelicoolapp - Vue</h5>
+              <p class="card-text">
+                Proyecto final del bootcamp de Desarrollador Proyecto Front End : usando Vue , 
+                Firebase para guardar datos y una Apires para buscar datos de peliculas
+                y poder almanecenarlas. Usando un tipo de logeo para guardar los datos y peliculas
+                favoritas en su historial. 
+              </p>
+            </div>
+            <div class="card-footer">
+               <a href="https://pelicoolapp.pgprojects.cl/"  target="_blank" class="btn"> ir al Proyecto</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
-    <div>
-        <h1>portafolio</h1>
-    </div>
 
+    <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark ">
+      <div class="container text-center">
+        <small class="small"
+          >@todos los derechos reservado Alejandro Pérez García</small
+        >
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
